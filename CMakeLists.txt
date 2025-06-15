@@ -3,4 +3,5 @@ project(cpp_exercises_pg2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cpp_exercises_pg2 main.cpp)
+add_executable(main main.cpp)
+add_executable(med-notizen medizinische-notizen-fstream.cpp)
